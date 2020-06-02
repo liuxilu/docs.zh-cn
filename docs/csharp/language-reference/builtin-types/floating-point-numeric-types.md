@@ -48,7 +48,7 @@ System.Double b = 12.3;
 
 每个浮点类型的默认值都为零，`0`。 每个浮点类型都有 `MinValue` 和 `MaxValue` 常量，提供该类型的最小值和最大有限值。 `float` and `double` 类型还提供可表示非数字和无穷大值的常量。 例如，`double` 类型提供以下常量：<xref:System.Double.NaN?displayProperty=nameWithType>、<xref:System.Double.NegativeInfinity?displayProperty=nameWithType> 和 <xref:System.Double.PositiveInfinity?displayProperty=nameWithType>。
 
-与 `decimal` 和 `float` 相比，`double` 类型具有更高的精度和更小的范围，因此它适合于财务和货币计算。
+与 `float` 和 `double` 相比，`decimal` 类型具有更高的精度和更小的范围，因此它适合于财务和货币计算。
 
 可在表达式中将[整型](integral-numeric-types.md)类型与 `float` 和 `double` 类型混合使用功能。 在这种情况下，整型类型隐式转换为其中一种浮点类型，且必要时，`float` 类型隐式转换为 `double`。 此表达式的计算方式如下：
 
