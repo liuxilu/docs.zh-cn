@@ -68,9 +68,9 @@ Console.WriteLine((decimal)a + b);
 
 可以使用[标准数字格式字符串](../../../standard/base-types/standard-numeric-format-strings.md)或[自定义数字格式字符串](../../../standard/base-types/custom-numeric-format-strings.md)设置浮点值的格式。
 
-## <a name="real-literals"></a>真实文本
+## <a name="real-literals"></a>实数文本
 
-真实文本的类型由其后缀确定，如下所示：
+实数文本的类型由其后缀确定，如下所示：
 
 - 不带后缀的文本或带有 `d` 或 `D` 后缀的文本的类型为 `double`
 - 带有 `f` 或 `F` 后缀的文本的类型为 `float`
@@ -92,7 +92,7 @@ myMoney = 400.75M;
 
 前面的示例还演示了如何将 `_` 用作数字分隔符  （从 C# 7.0 开始提供支持）。 可以将数字分隔符用于所有类型的数字文本。
 
-还可以使用科学记数法，即指定真实文本的指数部分，如以下示例所示：
+还可以使用科学记数法，即指定实数文本的指数部分，如以下示例所示：
 
 ```csharp-interactive
 double d = 0.42e2;
@@ -115,7 +115,7 @@ Console.WriteLine(m);  // output: 1500000
 
 - [浮点类型](~/_csharplang/spec/types.md#floating-point-types)
 - [十进制类型](~/_csharplang/spec/types.md#the-decimal-type)
-- [真实文本](~/_csharplang/spec/lexical-structure.md#real-literals)
+- [实数文本](~/_csharplang/spec/lexical-structure.md#real-literals)
 
 ## <a name="see-also"></a>另请参阅
 
